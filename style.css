@@ -1,0 +1,34 @@
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subtitle {
+    font-family: 'Young Serif', 'Times New Roman', serif;
+    width: 75px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.subtitle a {
+    text-decoration: none;
+    color: green;
+}
+
+.title {
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: 2.75em
+}
+
+#title-card {
+    background-color: lightgray;
+    background-image: linear-gradient(to right, lightblue, lightgreen);
+    height: 75vw;
+}
+
+#title-card img {
+    width: 900px;
+    height: 499px;
+    object-fit: cover;
+}
