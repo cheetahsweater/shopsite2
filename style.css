@@ -1,7 +1,35 @@
+/* Font legend
+Dela Gothic One - big title font
+Young Serif - subtitle font
+Onest - main site text font
+
+Onest weights
+300 - Light
+400 - Regular
+500 - Medium
+600 - Semibold
+700 - Bold */
+
+body {
+    background-color: whitesmoke;
+    color: black;
+}
+
+p {
+    font-family: 'Onest';
+    font-weight: 400;
+}
+
 .center {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.darkmode {
+    background-color: darkslategray;
+    color: white;
 }
 
 .subtitle {
@@ -16,15 +44,32 @@
     color: green;
 }
 
+.subtitle a:hover {
+    text-decoration: none;
+    color: mediumseagreen;
+}
+
+.subtitle a:visited {
+    text-decoration: none;
+    color: darkgreen;
+}
+
 .title {
     font-family: 'Dela Gothic One', sans-serif;
-    font-size: 2.75em
+    font-size: 2.75em;
+    margin-bottom: 0px;
+}
+
+#logo-head {
+    background-color: lightgray;
+    background-image: linear-gradient(to right, lightblue, lightgreen);
+    height: 30vh;
 }
 
 #title-card {
     background-color: lightgray;
     background-image: linear-gradient(to right, lightblue, lightgreen);
-    height: 75vw;
+    height: 100vh;
 }
 
 #title-card img {
