@@ -1,0 +1,202 @@
+/* Font legend
+Dela Gothic One - big title font
+Young Serif - subtitle font
+Onest - main site text font
+Josefin Sans - main site header font
+
+Onest weights
+300 - Light
+400 - Regular
+500 - Medium
+600 - Semibold
+700 - Bold 
+
+Josefin weights
+100 - Thin
+200 - ExtraLight
+300 - Light
+400 - Regular
+500 - Medium
+600 - Semibold
+700 - Bold
+*/
+
+body {
+    background-color: honeydew;
+    color: black;
+    background-image: linear-gradient(to right, lightblue, lightgreen);
+}
+
+button {
+    font-family: 'Onest';
+}
+
+form {
+    font-family: 'Onest', sans-serif;
+    font-weight: 400;
+}
+
+form button {
+    font-family: 'Onest', sans-serif;
+    font-weight: 400;
+}
+
+form input {
+    font-family: 'Onest', sans-serif;
+    font-weight: 400;
+}
+
+form label {
+    font-size: 0.9em;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 5px
+}
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h4 {
+    margin-top: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h5 {
+    margin-top: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+    font-family: 'Onest', sans-serif;
+    font-weight: 400;
+}
+
+table {
+    font-family: 'Onest';
+}
+
+.breaksmall {
+    padding: 75px;
+}
+
+.breakmedium {
+    padding: 150px;
+}
+
+.breaklarge {
+    padding: 300px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.darkmode {
+    background-color: darkslategray;
+    color: white;
+}
+
+.headhome {
+    font-size: 0.75em;
+}
+
+.headhome a {
+    text-decoration: none;
+    color: green;
+}
+
+.headhome a:hover {
+    text-decoration: none;
+    color: mediumseagreen;
+}
+
+.headhome a:visited {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+.profile img {
+    width: 25%;
+    height: 25%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    margin-bottom: 7.5%;
+    border: medium solid;
+    float: left;
+}
+
+.subtitle {
+    font-family: 'Young Serif', 'Times New Roman', serif;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.subtitle a {
+    text-decoration: none;
+    color: green;
+}
+
+.subtitle a:hover {
+    text-decoration: none;
+    color: mediumseagreen;
+}
+
+.subtitle a:visited {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+.title {
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: 2.75em;
+    margin-bottom: 0px;
+}
+
+.thumb {
+    width: 33%;
+    border-color: black;
+    border-width: 10px;
+    border-radius: 10px;
+}
+
+#checkout {
+    color: #1e7b38;
+}
+
+#clothes {
+    color: #267552;
+}
+
+#login {
+    color: #24764a;
+}
+
+#logo-head {
+    background-color: lightgray;
+    background-image: linear-gradient(to right, lightblue, lightgreen);
+    height: 30vh;
+}
+
+#register {
+    color: #217943;
+}
+
+#title-card {
+    height: 100vh;
+}
+
+#title-card img {
+    width: 900px;
+    height: 499px;
+    object-fit: cover;
+}
