@@ -28,7 +28,7 @@ body {
 }
 
 button {
-    font-family: 'Onest';
+    font-family: 'Onest', sans-serif;
 }
 
 form {
@@ -73,13 +73,17 @@ h5 {
     font-family: 'Josefin Sans', sans-serif;
 }
 
+li {
+    font-family: 'Onest', sans-serif;
+}
+
 p {
     font-family: 'Onest', sans-serif;
     font-weight: 400;
 }
 
 table {
-    font-family: 'Onest';
+    font-family: 'Onest', sans-serif;
 }
 
 .breaksmall {
