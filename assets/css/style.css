@@ -107,7 +107,8 @@ table {
 
 .clothes {
     padding: 0px 500px 0px 500px;
-    display: flex;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
 }
 
 .darkmode {
