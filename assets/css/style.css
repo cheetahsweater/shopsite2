@@ -105,6 +105,11 @@ table {
     justify-content: center;
 }
 
+.clothes {
+    padding: 0px 500px 0px 500px;
+    display: flex;
+}
+
 .darkmode {
     background-color: darkslategray;
     color: white;
